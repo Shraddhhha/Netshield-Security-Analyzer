@@ -57,12 +57,12 @@ Shraddha Suresh
 
 ### Flowchart
 
-![Flowchart](screenshots/flowchart.jpg)
+![Flowchart]("C:\Users\Admin\OneDrive\Desktop\mini project\screenshots\flowchart.jpg")
 
 ### Analysis Results
 
-![Analysis Results](screenshots/result.jpeg)
+![Analysis Results]("C:\Users\Admin\OneDrive\Desktop\mini project\screenshots\result.jpeg")
 
 ### Threat Detection
 
-![Threat Detection](screenshots/threatdetection.jpeg)
+![Threat Detection]("C:\Users\Admin\OneDrive\Desktop\mini project\screenshots\threat detection.jpeg")
