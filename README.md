@@ -57,12 +57,12 @@ Shraddha Suresh
 
 ### Flowchart
 
-![Flowchart](screenshots/flowchart.jpg")
+![Flowchart](screenshots/flowchart.jpg)
 
 ### Analysis Results
 
-![Analysis Results](screenshots/result.jpeg")
+![Analysis Results](screenshots/result.jpeg)
 
 ### Threat Detection
 
-![Threat Detection](screenshots/threat_detection.jpeg")
+![Threat Detection](screenshots/threat_detection.jpeg)
