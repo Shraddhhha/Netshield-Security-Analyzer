@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Scan Results</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #28313b, #485461);
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+        }
+
+        .result-box {
+            background: rgba(255, 255, 255, 0.1);
+            width: 500px;
+            padding: 40px;
+            text-align: center;
+            border-radius: 16px;
+            backdrop-filter: blur(10px);
+            box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+        }
+
+        h2 {
+            margin-bottom: 10px;
+            font-size: 28px;
+        }
+
+        .stats {
+            margin: 20px 0;
+            padding: 20px;
+            background: rgba(255,255,255,0.2);
+            border-radius: 12px;
+            font-size: 18px;
+        }
+
+        .btn {
+            margin-top: 25px;
+            background: #00ff87;
+            padding: 12px 25px;
+            border-radius: 10px;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+            color: black;
+            font-weight: bold;
+            transition: 0.3s;
+            text-decoration: none;
+        }
+
+        .btn:hover {
+            background: #00d46e;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="result-box">
+        <h2>Scan Complete</h2>
+
+        <div class="stats">
+            <p><strong>Total Log Events:</strong> {{ total }}</p>
+            <p><strong>Anomalies Detected:</strong> {{ anomaly_count }}</p>
+        </div>
+
+        <a href="/" class="btn">Scan Another File</a>
+    </div>
+
+</body>
+</html>
