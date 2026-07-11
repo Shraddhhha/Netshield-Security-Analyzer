@@ -52,3 +52,17 @@ python main.py
 ## Author
 
 Shraddha Suresh
+
+## Screenshots
+
+### Flowchart
+
+![Flowchart](screenshots/flowchart.jpg)
+
+### Analysis Results
+
+![Analysis Results](screenshots/result.jpeg)
+
+### Threat Detection
+
+![Threat Detection](screenshots/threatdetection.jpeg)
